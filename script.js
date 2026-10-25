@@ -93,10 +93,10 @@ function getPrice() {
   const filling = fillingInput.value;
 
   if (filling === "Oreo and cream") {
-    return 20000;
+    return 10000;
   }
 
-  return 18000;
+  return 10000;
 }
 
 function updateSummary() {
