@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Bloom | Sweet Treats</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <a class="brand" href="#" data-go="home">
+      <span>MARU</span>
+      <b>CHI</b>
+      <small>Daifuku Seal Mochi</small>
+    </a>
+
+    <div class="side-label">✿ &nbsp; NAVIGATION BAR</div>
+
+    <nav>
+      <button class="nav-link active" data-page="home">⌂ <span>Home</span></button>
+      <button class="nav-link" data-page="menu">♧ <span>Our Menu</span></button>
+      <button class="nav-link" data-page="order">♡ <span>Order Now</span></button>
+      <button class="nav-link" data-page="contact">Contact Us</button>
+    </nav>
+
+    <div class="side-bottom">
+      <span>☁</span>
+      <p>Made with love,<br>wrapped in a little sweetness.</p>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <header class="topbar">
+      <div class="search">⌕ <span>Discover something sweet...</span></div>
+      <div class="top-icons">
+        <div class="avatar">•ﻌ•</div>
+      </div>
+    </header>
+
+    <!-- PAGE 1: HOME -->
+    <section class="page active" id="home">
+      <div class="hero">
+        <div>
+          <p class="eyebrow">A LITTLE BALL OF HAPPINESS</p>
+          <h1>Sweet treats,<br>soft.</h1>
+          <p>Meet your new favorite bite: soft, sweet, and made to brighten your day.</p>
+          <button class="primary" data-go="menu">
+            Explore Menu <span>→</span>
+          </button>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="cloud">❤︎</div>
+          <div class="treat">◡</div>
+          <span class="spark s1">✦</span>
+          <span class="spark s2">✧</span>
+          <span class="spark s3">✦</span>
+        </div>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A TASTE OF JOY</p>
+          <h2>Why you'll love us</h2>
+        </div>
+        <span class="muted">A little sweetness goes a long way ✿</span>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="feature-icon">♡</div>
+          <h3>Made with care</h3>
+          <p>Every treat is prepared thoughtfully, with a little extra love.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature-icon">☁</div>
+          <h3>Soft & delightful</h3>
+          <p>Deliciously soft bites with fillings made for happy moments.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature-icon">✧</div>
+          <h3>Easy pickup</h3>
+          <p>Place your order online and choose a convenient pickup spot.</p>
+        </article>
+      </div>
+
+      <div class="bottom-banner">
+        <div>
+          <p class="eyebrow">YOUR NEXT FAVORITE IS WAITING</p>
+          <h2>Ready for a sweet little treat?</h2>
+        </div>
+        <button class="secondary" data-go="order">Place an Order →</button>
+      </div>
+    </section>
+
+    <!-- OUR MENU -->
+<section class="page" id="menu">
+
+  <div class="section-heading">
+    <p class="eyebrow">OUR SWEET LITTLE TREATS</p>
+    <h2>Our Daifuku Seal Mochi</h2>
+    <p>Choose your favorite little seal!</p>
+  </div>
+
+  <div class="menu-grid">
+
+    <!-- CLASSIC CREAM -->
+    <div class="menu-card">
+
+      <div class="menu-image">
+        <img
+          src="maruchiseal.png"
+          alt="Classic Cream Daifuku Seal Mochi"
+        >
+      </div>
+
+      <div class="menu-content">
+        <h3>Classic Cream</h3>
+        <p>Soft and chewy daifuku with a sweet cream filling.</p>
+
+        <div class="menu-bottom">
+          <span class="menu-price">Rp 10.000</span>
+
+          <button
+            class="primary-btn"
+            data-product="Classic Cream"
+          >
+            Order Now
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- OREO & CREAM -->
+    <div class="menu-card">
+
+      <div class="menu-image">
+        <img
+          src="maruchiseal.png"
+          alt="Oreo and Cream Daifuku Seal Mochi"
+        >
+      </div>
+
+      <div class="menu-content">
+        <h3>Oreo & Cream</h3>
+        <p>A delightful combination of Oreo crumbs and creamy filling.</p>
+
+        <div class="menu-bottom">
+          <span class="menu-price">Rp 10.000</span>
+
+          <button
+            class="primary-btn"
+            data-product="Oreo & Cream"
+          >
+            Order Now
+          </button>
+        </div>
+      </div>
+
+      <p class="menu-note">
+        ✧ Prices are per serving. Please mention any special requests in your order.
+      </p>
+    </section>
+
+    <!-- PAGE 3: ORDER -->
+    <section class="page" id="order">
+      <div class="page-intro">
+        <p class="eyebrow">LET'S MAKE IT OFFICIAL</p>
+        <h1>Place your order</h1>
+        <p>Follow the steps below and send your order directly to our WhatsApp.</p>
+      </div>
+
+      <!-- HOW TO ORDER GUIDE -->
+      <div class="how-to-order">
+        <div class="guide-heading">
+          <span>✧</span>
+          <div>
+            <p class="eyebrow">A SIMPLE LITTLE GUIDE</p>
+            <h2>How to order</h2>
+          </div>
+        </div>
+
+        <div class="guide-steps">
+          <article class="guide-step">
+            <span>01</span>
+            <div>
+              <h3>Fill in your details</h3>
+              <p>Enter your name and email address or phone number.</p>
+            </div>
+          </article>
+
+          <article class="guide-step">
+            <span>02</span>
+            <div>
+              <h3>Choose your treat</h3>
+              <p>Select your filling and the quantity you want to order.</p>
+            </div>
+          </article>
+
+          <article class="guide-step">
+            <span>03</span>
+            <div>
+              <h3>Select pickup & payment</h3>
+              <p>Choose your pickup location and cash or bank transfer.</p>
+            </div>
+          </article>
+
+          <article class="guide-step">
+            <span>04</span>
+            <div>
+              <h3>Send your order</h3>
+              <p>Review the details, then send the pre-filled message through WhatsApp.</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="guide-note">
+          ♡ Your order is not confirmed until the seller replies to you.
+        </p>
+      </div>
+
+      <div class="order-layout">
+
+        <!-- ORDER FORM -->
+        <form id="order-form" class="order-form">
+
+          <div class="form-heading">
+            <span>01</span>
+            <div>
+              <h2>Your details</h2>
+              <p>How can we reach you?</p>
+            </div>
+          </div>
+
+          <label for="name">Full name</label>
+          <input id="name" name="name" placeholder="Your name" required>
+
+          <label for="contact">Email or phone number</label>
+          <input id="contact" name="contact"
+                 placeholder="name@email.com / 08..."
+                 required>
+
+          <div class="form-heading gap-top">
+            <span>02</span>
+            <div>
+              <h2>Your treat</h2>
+              <p>Choose your filling and quantity.</p>
+            </div>
+          </div>
+
+          <label for="filling">Filling</label>
+          <select id="filling" name="filling" required>
+            <option value="">Choose a filling</option>
+            <option value="Cream">Cream</option>
+            <option value="Oreo and cream">Oreo and cream</option>
+          </select>
+
+          <label for="quantity">Quantity</label>
+          <input id="quantity" name="quantity"
+                 type="number" min="1" value="1" required>
+
+          <div class="form-heading gap-top">
+            <span>03</span>
+            <div>
+              <h2>Pickup & payment</h2>
+              <p>Almost there!</p>
+            </div>
+          </div>
+
+          <label for="pickup">Where would you like to pick up?</label>
+          <select id="pickup" name="pickup" required>
+            <option value="">Choose pickup location</option>
+            <option value="School pickup point">School pickup point</option>
+            <option value="Pickup location to be confirmed">
+              Pickup location to be confirmed
+            </option>
+            <option value="Other - see notes">Other - see notes</option>
+          </select>
+
+          <label>Payment method</label>
+          <div class="radio-row">
+            <label class="radio-card">
+              <input type="radio" name="payment" value="Cash" required>
+              <span>💵 Cash</span>
+            </label>
+
+            <label class="radio-card">
+              <input type="radio" name="payment" value="Bank transfer" required>
+              <span>🏦 Transfer</span>
+            </label>
+          </div>
+
+          <label for="notes">Notes <span class="optional">(optional)</span></label>
+          <textarea id="notes" name="notes" rows="3"
+                    placeholder="Special requests or pickup details..."></textarea>
+
+          <button class="primary submit-btn" type="submit">
+            Send Order to WhatsApp <span>→</span>
+          </button>
+        </form>
+
+        <!-- ORDER SUMMARY -->
+        <aside class="summary">
+          <p class="eyebrow">YOUR LITTLE CART</p>
+          <div class="summary-art">🫐</div>
+          <h3>Sweetness in the making</h3>
+          <p id="summary-text">
+            Choose your filling and quantity to see your order summary.
+          </p>
+
+          <div class="summary-line">
+            <span>Quantity</span>
+            <strong id="sum-qty">1</strong>
+          </div>
+
+          <div class="summary-line">
+            <span>Estimated total</span>
+            <strong id="sum-total">Rp 10.000</strong>
+          </div>
+
+          <small>Final details will be confirmed by the seller.</small>
+        </aside>
+
+      </div>
+    </section>
+
+    ```html
+<!-- CONTACT PAGE -->
+<section class="page" id="contact">
+
+  <div class="section-heading">
+    <p class="eyebrow">WE'RE HERE TO HELP</p>
+    <h2>Contact Maru Chi</h2>
+    <p>
+      Have a question about our Daifuku Seal Mochi?
+      Send us a message and we'll be happy to help!
+    </p>
+  </div>
+
+  <div class="contact-layout">
+
+    <div class="contact-info">
+      <div class="contact-icon">🦭</div>
+      <h2>Let's Talk Mochi!</h2>
+      <p>
+        Whether you have questions about our flavors,
+        prices, ordering process, or pickup arrangements,
+        feel free to contact us.
+      </p>
+
+      <div class="contact-detail">
+        <span>💬</span>
+        <div>
+          <strong>WhatsApp</strong>
+          <p>Message us directly with your questions.</p>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <span>🍡</span>
+        <div>
+          <strong>Product Questions</strong>
+          <p>Ask us about our mochi and available options.</p>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <span>📦</span>
+        <div>
+          <strong>Orders & Pickup</strong>
+          <p>Need help with your order? We're here for you.</p>
+        </div>
+      </div>
+    </div>
+
+    <form id="contact-form" class="contact-form">
+      <h2>Send Us a Message</h2>
+
+      <label for="contact-name">Your Name</label>
+      <input
+        type="text"
+        id="contact-name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      >
+
+      <label for="contact-email">Email or Phone Number</label>
+      <input
+        type="text"
+        id="contact-email"
+        name="contact"
+        placeholder="How can we reach you?"
+        required
+      >
+
+      <label for="contact-subject">What's your question about?</label>
+      <select id="contact-subject" name="subject" required>
+        <option value="">Choose a topic</option>
+        <option value="Mochi flavors">Mochi flavors</option>
+        <option value="Prices">Prices</option>
+        <option value="Placing an order">Placing an order</option>
+        <option value="Pickup arrangements">Pickup arrangements</option>
+        <option value="Other questions">Other questions</option>
+      </select>
+
+      <label for="contact-message">Your Message</label>
+      <textarea
+        id="contact-message"
+        name="message"
+        rows="5"
+        placeholder="Type your question here..."
+        required
+      ></textarea>
+
+      <button type="submit" class="primary-btn">
+        Send via WhatsApp
+      </button>
+
+      <p class="form-note">
+        Your message will open in WhatsApp for you to send.
+      </p>
+    </form>
+
+     </div>
+
+        </section>
+```
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
